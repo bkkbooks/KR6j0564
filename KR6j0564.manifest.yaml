@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6j0564/v1
+canonical_location: https://kanripo.org/bkk/KR6j0564/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 如來方便善巧呪經
+  identifiers:
+    alt_id:
+    - T21n1334
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1334.xml
+    old_id: T21n1334
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0564_000.yaml, hash: 'sha256:9e21c8db98dd1f7dec3ba53b31077ab6d036c3410a5a16ac69c008137c32af82'}
+  - {seq: 1, filename: KR6j0564_001.yaml, hash: 'sha256:ec659219a6391c99ac8b4097f825ce0e6334447f320120ee7399d74dce65329f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0564_001.markers.yaml, hash: 'sha256:c9360429f47420abb24d27d0be534312777f6ec13f421952296d567653b9786e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0564_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4114
+  label: 如來方便善巧呪經
+  type: juan
+  level: 1
+hash: sha256:9d548883535f34c559caad966ff6e9f65313e6182632364bda970a45b3bab312
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

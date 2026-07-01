@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0564/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0564/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 如來方便善巧呪經
+  identifiers:
+    krp: KR6j0564
+    cbeta: T21n1334
+    cbeta_old_id: T21n1334
+    authorityid: CA0002655
+    json_key: T1334
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1334.xml
+    old_id: T21n1334
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0564_000-T.yaml, hash: 'sha256:9e21c8db98dd1f7dec3ba53b31077ab6d036c3410a5a16ac69c008137c32af82'}
+  - {seq: 1, filename: KR6j0564_001-T.yaml, hash: 'sha256:fb769a13615eb9e65c0e4589f86dfb2f2b99fa79fd5932ff79dd071fb444b0ab'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0564_000-T.markers.yaml, hash: 'sha256:844d767d768feccfba06da8a75189d0415d7b89545cb492d5592fd9a059c5994'}
+  - {seq: 1, role: markers, filename: assets/KR6j0564_001-T.markers.yaml, hash: 'sha256:210f6984b07a6e4c62c865f7be371ff2af6643e4ad3d482fb07dc0f2f4d7ac4e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0564_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4114
+  label: 如來方便善巧呪經
+  type: juan
+  level: 1
+hash: sha256:d609b8294b679dfd1dcbe9e2cae6c58172bf4bc95955cf502daa502185592756
