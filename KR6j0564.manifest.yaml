@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0564_000.yaml, hash: 'sha256:9e21c8db98dd1f7dec3ba53b31077ab6d036c3410a5a16ac69c008137c32af82'}
-  - {seq: 1, filename: KR6j0564_001.yaml, hash: 'sha256:ec659219a6391c99ac8b4097f825ce0e6334447f320120ee7399d74dce65329f'}
+  - {seq: 1, filename: KR6j0564_001.yaml, hash: 'sha256:fb769a13615eb9e65c0e4589f86dfb2f2b99fa79fd5932ff79dd071fb444b0ab'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0564_001.markers.yaml, hash: 'sha256:c9360429f47420abb24d27d0be534312777f6ec13f421952296d567653b9786e'}
+  - {seq: 0, role: markers, filename: assets/KR6j0564_000.markers.yaml, hash: 'sha256:fe268406c4db4826288eaa7052e4aebaec042eb40a4e59cfd78714beafc41806'}
+  - {seq: 1, role: markers, filename: assets/KR6j0564_001.markers.yaml, hash: 'sha256:23cce055a246d3611f8def05cb6192496d29a3261da43653e9542fc976bc4560'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 如來方便善巧呪經
   type: juan
   level: 1
-hash: sha256:9d548883535f34c559caad966ff6e9f65313e6182632364bda970a45b3bab312
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:1c093daec1345d910d0c5f3b3f09355aa5a0fcf9258ae40b1c66399016e1d507
