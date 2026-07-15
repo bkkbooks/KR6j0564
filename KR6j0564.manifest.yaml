@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0564/v1
 canonical_location: https://kanripo.org/bkk/KR6j0564/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 如來方便善巧呪經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0564_000.yaml, hash: 'sha256:9e21c8db98dd1f7dec3ba53b31077ab6d036c3410a5a16ac69c008137c32af82'}
-  - {seq: 1, filename: KR6j0564_001.yaml, hash: 'sha256:fb769a13615eb9e65c0e4589f86dfb2f2b99fa79fd5932ff79dd071fb444b0ab'}
+  - {seq: 1, filename: KR6j0564_001.yaml, hash: 'sha256:0211e3acbf9cee2635634560b3b90948e09ad34638bc1bca871442ecf636af12'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0564_000.markers.yaml, hash: 'sha256:fe268406c4db4826288eaa7052e4aebaec042eb40a4e59cfd78714beafc41806'}
-  - {seq: 1, role: markers, filename: assets/KR6j0564_001.markers.yaml, hash: 'sha256:23cce055a246d3611f8def05cb6192496d29a3261da43653e9542fc976bc4560'}
+  - {seq: 1, role: markers, filename: assets/KR6j0564_001.markers.yaml, hash: 'sha256:b9a8e299e84873713f6808521e6d3d8817bca43896bf95dd1c6d13068393c4a3'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 如來方便善巧呪經
   type: juan
   level: 1
-hash: sha256:1c093daec1345d910d0c5f3b3f09355aa5a0fcf9258ae40b1c66399016e1d507
+hash: sha256:a51a3890ad5953ba58c73fd9a6f8abba810d378b9d86ccf6705c75b7bfb54e09
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
